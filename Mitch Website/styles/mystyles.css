@@ -1,0 +1,36 @@
+body {
+    background-color: slategrey;
+    color: white;
+
+}
+
+.Home-content {
+    color: white
+}
+
+.CR{
+text-align: center;
+
+}
+
+.subheading{
+  text-decoration: underline;
+}
+
+
+
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 60%; 
+  height: 0;
+  top: -50px;
+}
+.iframe-container iframe{
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
